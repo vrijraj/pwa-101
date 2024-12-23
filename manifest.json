@@ -1,0 +1,38 @@
+{
+  "name": "My Progressive Web App",
+  "short_name": "My PWA",
+  "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis cum odit quas molestiae repellendus quidem voluptas, unde quos vel quisquam distinctio dolores, atque fuga illum debitis eius magni hic? Provident",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/ss1.png",
+      "type": "image/png",
+      "sizes": "1600x1200",
+      "form_factor": "wide",
+      "label": "Application"
+    },
+    {
+      "src": "/screenshots/ss2.png",
+      "type": "image/png",
+      "sizes": "1600x1200",
+      "form_factor": "wide",
+      "label": "Application"
+    }
+  ]
+}

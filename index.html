@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+</head>
+
+<body>
+    <div class="container">
+        <h1>PWA</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis cum odit quas molestiae repellendus quidem
+            voluptas, unde quos vel quisquam distinctio dolores, atque fuga illum debitis eius magni hic? Provident?</p>
+        <img class="img" src="images/image.png" alt="" srcset="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, possimus libero! Repellat ad, officia assumenda
+            alias, reiciendis illo ab animi asperiores deleniti culpa doloribus temporibus voluptatem fugiat repudiandae
+            quibusdam itaque Lorem ipsum dolor sit amet consectetur adipisicing elit. At, possimus libero! Repellat ad,
+            officia assumenda alias, reiciendis illo ab animi asperiores deleniti culpa doloribus temporibus voluptatem
+            fugiat repudiandae quibusdam itaque?</p>
+        <ul>
+            <li>Dummy item 1</li>
+            <li>Dummy item 2</li>
+            <li>Dummy item 3</li>
+            <li>Dummy item 4</li>
+            <li>Dummy item 5</li>
+        </ul>
+    </div>
+
+    <script>
+        // Register service worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful');
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            });
+        }
+    </script>
+</body>
+
+</html>
