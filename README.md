@@ -4,4 +4,4 @@ Unlock the next level of web development by converting your website into a Progr
 
 ![PWA](https://github.com/user-attachments/assets/27ec34ab-5eba-4659-a0db-62a73c100609)
 
-Codelab: https://gradus.dev/labs/progressive-web-app-kK6Hx9
+Gradus Codelab: https://gradus.dev/labs/progressive-web-app-kK6Hx9
